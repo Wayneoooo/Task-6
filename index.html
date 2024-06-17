@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Components Order Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Computer Components Order Form</h1>
+    <h2>Order Details</h2>
+    <div class="Available-Stock">
+        <span>Available Stock</span>
+        <ul class="dropdown-menu">
+            <li>Monitor</li>
+            <li>CPU</li>
+            <li>Keyboard</li>
+            <li>Mouse</li>
+            <li>GPU</li>
+            <li>RAM</li>
+            <li>Power Supply</li>
+            <li>Data Transimssion Cables</li>
+            <li>Motherboard</li>
+            <li>Heat Sinks</li>
+         </ul>
+    </div>
+    <div class="Order-Details">
+        <form action="/" method="get">
+        <label for="Order Description">Order Description</label>
+        <input type="text" id="Order Description" name="Order Description"  placeholder="Please describe your order..." required>
+        <label for="Order Qauntity">Order Quantity</label>
+        <input type="number" id="Order Quantity" name="Quantity" placeholder="How many do you need?" required>
+        <label for="Device Specifications">Device Specifications</label>
+        <input type="text" id="Device Specifications" name="Device Specifications" placeholder="What are the device specifications?" required>
+        <label for="Delivery Date">Delivery Date</label>
+        <input type="date" id="Delivery Date" name="Delivery Date">
+        <label for="Delivery Address">Delivery Address</label>
+        <input type="text" id="Delivery Address" name="Delivery Address" placeholder="Please enter your full name" required>
+        </form>
+    </div>
+    <div class="Contact-Details">
+        <form action="/" method="get">
+            <label for="Full Name">Full Name</label>
+            <input type="text" id="Full Name" name="Full Name" placeholder="Please enter your full name" required>
+            <label for="E-mail Address">E-mail Address</label>
+            <input type="text" id="E-mail Address" name="E-mail Address" placeholder="Please enter your E-mail Address" required>
+            <label for="Phone Number">Phone Number</label>
+            <input type="number" id="Phone Number" name="Phone Number" placeholder="Please enter your phone number" required>
+        </form>
+    </div>
+    <div class="Additional-Comments">
+        <form action="/" method="get">
+            <label for="Additional Comments">Additional Comments</label>
+            <input type="text" id="Additional Comments" name="Additional Comments" placeholder="Anything else we should know?">
+        </form>
+    </div>
+    <a href="index.html"><button type="submit"> Submit Order</button></a>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: darkseagreen;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.Available-Stock {
+    margin-bottom: 20px;
+}
+
+.Available-Stock span {
+    font-weight: bold;
+    color: #fff;
+}
+
+.dropdown-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu li {
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #8d898a;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #8d898a;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid #b4aeb0;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background: darkgrey;
+}
+
